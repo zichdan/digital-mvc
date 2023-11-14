@@ -1,3 +1,2 @@
-# Power-Hacks-Nigeria.
-This is a power learn project hackathon test requirement for testing pull request.
-
+# Waste Management System In Nigeria.
+This is a power learn project final year project.
