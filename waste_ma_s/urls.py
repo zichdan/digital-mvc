@@ -5,5 +5,5 @@ from waste_ma_s import views
 app_name = "waste_ma_s"
 
 urlpatterns = [
-    path('', views.index),
+    path('', views.index, name='home'),
 ]

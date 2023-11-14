@@ -23,7 +23,7 @@ def login_view(request):
             user = authenticate(username=username, password=password)
             if user is not None:
                 login(request, user)
-                return redirect("dashboard")
+                return redirect("waste_ma_s:home")
             else:
                 msg = 'Invalid credentials'
         else:
